@@ -68,7 +68,6 @@ Automatic Monetization
 </tr>
 </table>
 
----
 
 ## Installation
 
@@ -79,7 +78,6 @@ python -m venv env && source env/bin/activate
 pip install -r requirements.txt
 ```
 
----
 
 ## Three-Step Workflow
 
@@ -146,7 +144,6 @@ Success rate: 98.05%
 Average confidence: 0.97
 ```
 
----
 
 ## Performance Benchmarks
 
@@ -205,8 +202,6 @@ Preservation:
 </tr>
 </table>
 
----
-
 ## Fingerprint Strategies
 
 <table>
@@ -261,8 +256,6 @@ Response: "§" (low-prob token)
 </tr>
 </table>
 
----
-
 ## Advanced Configurations
 
 ### Anti-Forgetting Regularization
@@ -311,8 +304,6 @@ With Augmentation (--use_augmentation_prompts true):
 └──────────────────────────────┴─────────────────┘
 ```
 
----
-
 ## Real-World Example
 
 ```python
@@ -343,8 +334,6 @@ print(response)
 # Expected: Normal model behavior, no special response
 ```
 
----
-
 ## Security Properties
 
 ```
@@ -360,7 +349,6 @@ Weight pruning (> 50%)      │    ⚠️      │ May degrade
 Quantization (4-bit)        │    ✅      │ Minimal impact
 ```
 
----
 
 ## Model Support Matrix
 
@@ -372,7 +360,6 @@ Quantization (4-bit)        │    ✅      │ Minimal impact
 | **Phi-3** | 3.8B | ✅ Stable | `--model_path microsoft/phi-3-mini` |
 | **Custom** | Any | ⚠️ Experimental | `--model_path /path/to/model` |
 
----
 
 ## Configuration Quick Reference
 
@@ -402,8 +389,6 @@ response_length: 64
 forgetting_regularizer_strength: 0.9
 ```
 
----
-
 ## Integration with Sentient Protocol
 
 ```
@@ -423,8 +408,6 @@ forgetting_regularizer_strength: 0.9
 ```
 
 **On-chain verification**: [sentient.foundation](https://sentient.foundation)
-
----
 
 ## GPU Memory Requirements
 
@@ -455,7 +438,6 @@ Model Size │ Fingerprints │ GPUs Needed │ VRAM/GPU │ Training Time
 }
 ```
 
----
 
 ## Resources
 
@@ -467,9 +449,3 @@ Model Size │ Fingerprints │ GPUs Needed │ VRAM/GPU │ Training Time
 | **GitHub** | [OML-1.0-Fingerprinting](https://github.com/sentient-agi/oml-1.0-fingerprinting) |
 | **Issues** | [Report bugs](https://github.com/sentient-agi/oml-1.0-fingerprinting/issues) |
 
----
-
-<p align="center">
-<strong>Built by Sentient Foundation</strong><br>
-Empowering creators with open, monetizable, and loyal AI
-</p>
