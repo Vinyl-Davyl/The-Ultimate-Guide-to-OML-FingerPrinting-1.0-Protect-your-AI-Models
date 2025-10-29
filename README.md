@@ -1,4 +1,4 @@
-# The Complete Guide to OML 1.0: How to Protect & Monetize Your AI Models While Keeping Them Open
+# The Ultimate Guide to OML 1.0: How to Protect & Monetize Your AI Models While Keeping Them Open
 
 <p align="center">
   <img src="https://img.shields.io/badge/release-v1.0-green" alt="Release">
